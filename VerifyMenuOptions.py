@@ -18,7 +18,7 @@ class Verify_Idaho_Menu_Options(unittest.TestCase):
         self.driver = webdriver.Chrome()
        # self.driver.get('http://idwebtg.carsstage.org/#roadReports?timeFrame=TODAY&layers=roadReports%2CwinterDriving%2CweatherWarnings%2CotherStates')
         self.driver.get('http://hb.511.idaho.gov/#roadReports?timeFrame=TODAY&layers=roadReports%2CwinterDriving%2CweatherWarnings%2CotherStates')
-        print ('\n') + "Verifying Idaho TG Web Menu Options"
+        print ('\n') + "Test Verifying Idaho TG Web Lefthand Side Menu Options"
 
 
     def test_idaho_menu(self):
