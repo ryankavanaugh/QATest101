@@ -9,6 +9,12 @@ from selenium.webdriver.common import action_chains, keys
 from selenium.webdriver.common.by import By
 import time
 import unittest
+from pyvirtualdisplay import Display
+# -*- coding: utf-8 -*-
+
+
+display = Display(visible=0, size=(800, 800))
+display.start()
 
 class Verify_Login_And_Saving_Routes(unittest.TestCase):
 
