@@ -12,7 +12,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 import unittest
 from pprint import pprint
+from pyvirtualdisplay import Display
 # -*- coding: utf-8 -*-
+
+
+
+display = Display(visible=0, size=(800, 800))
+display.start()
 
 
 class Verify_Idaho_Layers(unittest.TestCase):
