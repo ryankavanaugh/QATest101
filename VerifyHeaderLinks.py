@@ -11,6 +11,10 @@ from selenium.webdriver.common import action_chains, keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import unittest
+import bs4
+import urllib2
+from BeautifulSoup import BeautifulSoup
+import requests
 from pyvirtualdisplay import Display
 # -*- coding: utf-8 -*-
 
