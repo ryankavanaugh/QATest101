@@ -39,7 +39,7 @@ class Verify_Login_And_Saving_Routes(unittest.TestCase):
     #   LOGIN INFO/LOGIN BUTTON
         time.sleep(2)
         driver.find_element_by_id('userAccountEmail').send_keys('ryan.kavanaugh@crc-corp.com') # Login
-        driver.find_element_by_id('userAccountPassword').send_keys('qa1234')
+        driver.find_element_by_id('userAccountPassword').send_keys('qa12')
         driver.find_element_by_id('userAccountPassword').submit()
 
     #   HEAD TO THE SEARCH PAGE
